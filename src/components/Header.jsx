@@ -10,7 +10,7 @@ import { IoDocumentAttach } from "react-icons/io5";
 import { toast } from 'react-toastify';
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
 
   const notify = () => toast("Поки не доступно :(");
   return (
