@@ -7,7 +7,7 @@ const Card = ({ imgUrl, cardBody, title }) => {
 
 
   return (
-    <div className="card card-side bg-prime-color shadow-xl">
+    <div className="card card-side bg-prime-color shadow-xl hover:scale-125 duration-200">
         <div>
         <Image
             src={imgUrl}

@@ -26,7 +26,7 @@ const Footer = () => {
                     <li><Link href={'/documents'}>Документи(договори)</Link></li>
                 </ul>
             </div>
-            <div className='w-[495px] h-[128px] bg-prime-color rounded-lg grid grid-cols-1 content-center'>
+            <div className='w-[495px] h-[128px] bg-prime-color rounded-lg grid grid-cols-1 content-center hover:skew-y-3 duration-150 cursor-pointer'>
                 <h2 className='justify-self-center text-lg'>Наша Електронна пошта</h2>
                 <div className='flex justify-self-center'>
                     <h2 className='flex justify-between justify-self-center mr-4'>beregtvselo@gmail.com</h2>

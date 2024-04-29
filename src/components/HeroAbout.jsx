@@ -151,8 +151,8 @@ const HeroAbout = () => {
             <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Bereg-Tv</h1>
             <p className="mb-5">Мережа кабельного телебачення в берегівському районі(Дийда, Велика Бийгань, Мала Бийгань, Яноші, Косонь, Запсонь, Вари, Боржава, Мужієво,Бене) українські і угорські канали в аналозі і цифровій якості</p>
-            <button onClick={openAnalog} className="btn btn-primary mr-3">Аналог</button>
-            <button onClick={openDigi} className="btn btn-primary ml-3">Цифрові</button>
+            <button onClick={openAnalog} className="btn bg-prime-color mr-3 hover:bg-teal-500 duration-200 hover:scale-110">Аналог</button>
+            <button onClick={openDigi} className="btn bg-prime-color ml-3 hover:bg-teal-500 duration-200 hover:scale-110">Цифрові</button>
             </div>
         </div>
     </div>

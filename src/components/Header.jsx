@@ -17,18 +17,18 @@ const Header = () => {
     <div className='flex justify-center w-full h-24'>
       <div className='w-9/12 lg:block hidden'>
         <div className='flex justify-between items-center h-full'>
-        <div className='flex justify-center items-center text-white w-44 h-12'>
-          <Link href={'/'} className='text-2xl'>Bereg-Tv</Link>
+        <div className='flex justify-center items-center text-white w-44 h-12 hover:scale-y-125 duration-200'>
+          <Link href={'/'} className='text-4xl hover:text-prime-color duration-200'>Bereg-Tv</Link>
         </div>
         <ul className="flex justify-center items-center gap-6 text-white">
-                <li><Link href={'/about'}><h3>Про Нас</h3></Link></li>
-                <li><Link href={'/taryf'}>Тарифи</Link></li>
-                <li><Link href={'/contacts'}>Контакти</Link></li>
-                <li><Link href={'/documents'}>Документи(договори)</Link></li>
+                <li><Link className='hover:text-2xl duration-300 hover:text-prime-color' href={'/about'}><h3>Про Нас</h3></Link></li>
+                <li><Link className='hover:text-2xl duration-300 hover:text-prime-color' href={'/taryf'}>Тарифи</Link></li>
+                <li><Link className='hover:text-2xl duration-300 hover:text-prime-color' href={'/contacts'}>Контакти</Link></li>
+                <li><Link className='hover:text-2xl duration-300 hover:text-prime-color' href={'/documents'}>Документи(договори)</Link></li>
         </ul>
 
         <div className='w-44 h-12 '>
-          <button onClick={notify} className=' bg-prime-color w-full h-full rounded-full'>Ввійти</button>
+          <button onClick={notify} className='transition ease-in-out delay-150 bg-prime-color hover:-translate-y-1 hover:scale-110 duration-300 w-full h-full rounded-full'>Ввійти</button>
         </div>
         </div>
       </div>
