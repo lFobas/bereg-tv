@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Inter, Red_Rose } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { ToastContainer } from 'react-toastify';
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ua">
       <body className={redRose.className}>
+        <SpeedInsights/>
         <div className="bg-main-bg h-full w-screen">
         {/* <Navbar /> */}
         <Header />
