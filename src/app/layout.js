@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { Inter, Red_Rose } from "next/font/google";
+import { Jura } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -8,8 +8,8 @@ import { ToastContainer } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 
-const inter = Inter({ subsets: ["latin"] });
-export const redRose = Red_Rose({ subsets: ["latin"] });
+
+export const inter = Jura({ subsets: ["latin"] });
 
 
 export const metadata = {
@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ua">
-      <body className={redRose.className}>
+      <body className={inter.className}>
         <SpeedInsights/>
         <div className="bg-main-bg h-full w-screen">
         {/* <Navbar /> */}

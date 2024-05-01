@@ -20,6 +20,13 @@ const page = () => {
         cardBody={'м.Берегове пл.Кошута 5'}
         />
     </div>
+    <div className='flex justify-end m-10'>
+      <Card 
+        title={'Реквізити'}
+        imgUrl={"/img/iban.jpg"}
+        cardBody={'ЄДРПОУ 32953840\n UA563052990000026000003605074'}
+        />
+    </div>
     </>
   )
 }

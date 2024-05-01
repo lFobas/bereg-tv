@@ -11,7 +11,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='w-full bg-secondary-color py-6 px-20 sticky bottom-0 left-0'>
+    <div className='w-full bg-secondary-color py-6 px-20  bottom-0 left-0'>
         <div className='hidden md:flex justify-between'>
             <div className='flex justify-center items-center'>
                 <h2 className='text-white text-2xl font-semibold'>Bereg Tv-Selo</h2>

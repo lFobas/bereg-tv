@@ -17,7 +17,7 @@ const Header = () => {
     <div className='flex justify-center w-full h-24'>
       <div className='w-9/12 lg:block hidden'>
         <div className='flex justify-between items-center h-full'>
-        <div className='flex justify-center items-center text-white w-44 h-12 hover:scale-y-125 duration-200'>
+        <div className='flex justify-center items-center text-white font-extrabold w-44 h-12 hover:scale-y-125 duration-200'>
           <Link href={'/'} className='text-4xl hover:text-prime-color duration-200'>Bereg-Tv</Link>
         </div>
         <ul className="flex justify-center items-center gap-6 text-white">
@@ -37,16 +37,16 @@ const Header = () => {
 
         {!isOpen ? <>
           <ul className="menu menu-horizontal rounded-box text-white text-2xl">
-              <button className='mx-3' onClick={e=>setIsOpen(!isOpen)}>
+              <button className='mx-3 hover:text-prime-color' onClick={e=>setIsOpen(!isOpen)}>
                 <Link href={'/about'}><FaInfoCircle /></Link>
               </button>
-              <button className='mx-3' onClick={e=>setIsOpen(!isOpen)}>
+              <button className='mx-3 hover:text-prime-color' onClick={e=>setIsOpen(!isOpen)}>
                 <Link href={'/taryf'}><MdOutlinePriceChange /></Link>
               </button>
-              <button className='mx-3' onClick={e=>setIsOpen(!isOpen)}>
+              <button className='mx-3 hover:text-prime-color' onClick={e=>setIsOpen(!isOpen)}>
                 <Link href={'/contacts'}><MdContactPhone /></Link>
               </button>
-              <button className='mx-3' onClick={e=>setIsOpen(!isOpen)}>
+              <button className='mx-3 hover:text-prime-color' onClick={e=>setIsOpen(!isOpen)}>
                 <Link href={'/documents'}><IoDocumentAttach /></Link>
               </button>
             </ul>
