@@ -47,8 +47,12 @@ const Footer = () => {
         </Link>
       </div>
       <div className="text-white block justify-between mt-3 md:flex">
-        <h2 className=" my-1">Bereg Tv 2025 All Rights Reserved</h2>
-        <h2 className=" my-1">Terms & Conditions Privacy</h2>
+        <h2 className=" my-1">
+          Bereg Tv {new Date().getFullYear()} All Rights Reserved
+        </h2>
+        <Link href={"/privacy-policy"} className=" my-1">
+          Terms & Conditions Privacy
+        </Link>
         <div>
           <ul className="text-gray-300 flex gap-6  my-1">
             <li>
